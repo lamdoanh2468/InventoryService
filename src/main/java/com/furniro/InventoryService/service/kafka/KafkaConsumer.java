@@ -3,11 +3,11 @@ package com.furniro.InventoryService.service.kafka;
 import com.furniro.InventoryService.dto.req.StockItem;
 import com.furniro.InventoryService.service.ReservationService;
 import com.furniro.InventoryService.service.StockService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
+import tools.jackson.databind.ObjectMapper;
 
 import java.util.List;
 import java.util.Map;
