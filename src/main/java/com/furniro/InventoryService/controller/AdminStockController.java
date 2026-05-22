@@ -2,6 +2,7 @@ package com.furniro.InventoryService.controller;
 
 import com.furniro.InventoryService.dto.API.AType;
 import com.furniro.InventoryService.dto.req.StockReq;
+import com.furniro.InventoryService.service.StatisticService;
 import com.furniro.InventoryService.service.StockService;
 import com.furniro.InventoryService.service.StockTransactionService;
 import io.swagger.v3.oas.annotations.tags.Tag;
